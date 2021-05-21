@@ -1,0 +1,39 @@
+.Filter_header{
+    height: 40px;
+    border: 1px solid gray;
+    background-color: #EAEEF1;
+  }
+  .Filter_header > p {
+    padding: 10px 10px;
+    color: #064E98;
+    font-size: medium;
+    font-weight: 600;
+  
+  }
+  
+  .filter{
+    border: 1px solid gray;
+  }
+  
+  
+  .filter_info_item{
+    color: #A2ADB8;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  margin-left: 10px;
+  }
+  .filter_info_item >input[type="text"]{
+    max-width: 200px;
+    padding: 5px;
+    outline-color:#A2ADB8 ;
+  
+  }
+  .filter_info_item >select{
+    max-width: 210px;
+    padding: 5px;
+    outline-color:#A2ADB8 ;
+  
+  }
+  
+  
