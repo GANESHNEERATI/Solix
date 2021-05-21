@@ -1,23 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import { TextField } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core/styles";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="filter">
+      <div className="Filter_header">
+        <p>Migration Details</p>
+      </div>
+      <div className="filter_info">
+        <div className="filter_info_item">
+          <label>Name</label>
+          <input type="text"></input>
+        </div>
+        <div className="filter_info_item">
+          <label>Number of Threads</label>
+          <select name="cars" id="cars">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </div>
+        <div className="filter_info_item">
+          <label>Run Meta Data check Duplicate*</label>
+        </div>
+        <div className="filter_info_item">
+          <label>File Compresion*</label>
+        </div>
+        <div className="filter_info_item">
+          <label>File Encryption</label>
+        </div>
+        <div className="filter_info_item">
+          <label>Vesrion Enable</label>
+        </div>
+        <div className="filter_info_item">
+          <label>File Validation</label>
+        </div>
+        <div className="filter_info_item">
+          <label>Purge files</label>
+        </div>
+      </div>
     </div>
   );
 }
