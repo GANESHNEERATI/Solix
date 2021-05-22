@@ -1,7 +1,7 @@
 import React from "react";
-import "./MigrationFilter.css";
+import "./MigrationDetails.css";
 
-function MigrationFilter() {
+function MigrationDetails() {
   return (
     <div className="filter">
       <div className="Filter_header">
@@ -44,4 +44,4 @@ function MigrationFilter() {
   );
 }
 
-export default MigrationFilter;
+export default MigrationDetails;

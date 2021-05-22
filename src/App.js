@@ -1,9 +1,9 @@
 import "./App.css";
 
-import MigrationFilter from "./Components/MigrationFilter";
+import MigrationDetails from "./Components/MigrationDetails";
 
 function App() {
-  return <MigrationFilter />;
+  return <MigrationDetails />;
 }
 
 export default App;
