@@ -17,7 +17,7 @@ const initialstate = {
 
 function saveMigration(state = initialstate, action) {
   switch (action.type) {
-    case "Save/Continue":
+    case "SAVE_CONINUE":
       debugger;
       const {
         applyEncryption,

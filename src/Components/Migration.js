@@ -229,14 +229,14 @@ const Migration = (props) => {
             <label className={classes.labelStyle}>SNAPPY</label>
           </Grid>
         </Grid>
-        <Grid item className={classes.filterData}>
+        <Grid item className={classes.filterData} lg={1} md={1}>
           <p>File Encryption</p>
           <FileEncrptionSwitch
             checkFileEncryption={handleFileEncryption}
             labelname=""
           />
         </Grid>
-        <Grid item className={classes.filterData}>
+        <Grid item className={classes.filterData} lg={1} md={1}>
           <p>Version Enable</p>
           <VersionSwitch checkversion={handleVersionEnable} labelname="" />
         </Grid>
