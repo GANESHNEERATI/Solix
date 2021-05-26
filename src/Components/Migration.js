@@ -7,7 +7,6 @@ import PurgeFilesSwitch from "./Switches/PurgeFilesSwitch";
 import VersionSwitch from "./Switches/VersionSwitch";
 import { useDispatch, useSelector } from "react-redux";
 
-import "./Migration.css";
 import {
   FormControl,
   Grid,
